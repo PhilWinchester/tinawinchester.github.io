@@ -1,3 +1,98 @@
 body {
+  background-color: #FAFAFA;
+}
+.char{
+  width: 50px;
+  height: 50px;
+  border-radius: .1rem;
   background-color: dodgerblue;
+  position: absolute;
+}
+.char-animation{
+  animation: tour 60s linear;
+}
+.char-start{
+  top: 30vh;
+  left: 1vw;
+}
+.char-loc1{
+  top: 30vh;
+  left: 32vw;
+}
+.char-loc2{
+  top: 54vh;
+  left: 73vw;
+}
+.char-loc3{
+  top: 63vh;
+  left: 42vw;
+}
+@keyframes tour {
+  0%{
+    /*start*/
+    top: 30vh;
+    left: 1vw;
+  }
+  15% {
+    /*loc1 spot*/
+    top: 30vh;
+    left: 32vw;
+  }
+  30%{
+    /*turn spot*/
+    top: 30vh;
+    left: 73vw;
+  }
+  45%{
+    /*loc2 spot*/
+    top: 54vh;
+    left: 73vw;
+  }
+  50%{
+    /*turn spot*/
+    top: 63vh;
+    left: 73vw;
+  }
+  70% {
+    /*loc3 spot*/
+    top: 63vh;
+    left: 42vw;
+  }
+  90%{
+    /*turn spot*/
+    top: 63vh;
+    left: 1vw;
+  }
+  100%{
+    /*return*/
+    top: 30vh;
+    left: 1vw;
+  }
+}
+.loc1{
+  width: 200px;
+  height: 200px;
+  border-radius: .1rem;
+  background-color: forestgreen;
+  position: absolute;
+  top: 2vh;
+  left: 25vw;
+}
+.loc2{
+  width: 200px;
+  height: 200px;
+  border-radius: .1rem;
+  background-color: firebrick;
+  position: absolute;
+  top: 45vh;
+  left: 78vw;
+}
+.loc3{
+  width: 200px;
+  height: 200px;
+  border-radius: .1rem;
+  background-color: gold;
+  position: absolute;
+  top: 71vh;
+  left: 35vw;
 }
