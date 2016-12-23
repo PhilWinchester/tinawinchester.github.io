@@ -7,6 +7,8 @@ body {
   border-radius: .1rem;
   background-color: dodgerblue;
   position: absolute;
+  top: 30vh;
+  left: 1vw;
 }
 .char-animation{
   animation: tour 60s linear;
@@ -95,4 +97,18 @@ body {
   position: absolute;
   top: 71vh;
   left: 35vw;
+}
+.hide-title{
+  opacity: 0;
+}
+.show-title{
+  animation: textFade 2s linear;
+}
+@keyframes textFade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
