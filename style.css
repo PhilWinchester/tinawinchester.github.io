@@ -18,7 +18,7 @@ body {
   left: 1vw;
 }
 .char-loc1{
-  top: 30vh;
+  top: 36vh;
   left: 32vw;
 }
 .char-loc2{
@@ -37,7 +37,7 @@ body {
   }
   15% {
     /*loc1 spot*/
-    top: 30vh;
+    top: 36vh;
     left: 32vw;
   }
   30%{
@@ -73,27 +73,33 @@ body {
 }
 .loc1{
   width: 200px;
-  height: 200px;
+  height: 250px;
   border-radius: .1rem;
-  background-color: forestgreen;
+  background-image: url('http://www.artgalleryframes.com/images_products/alden-antique-gold-painting-frame-293lar.jpg');
+  background-size: cover;
+  /*background-color: forestgreen;*/
   position: absolute;
   top: 2vh;
   left: 25vw;
 }
 .loc2{
   width: 200px;
-  height: 200px;
+  height: 250px;
   border-radius: .1rem;
-  background-color: firebrick;
+  background-image: url('http://www.artgalleryframes.com/images_products/la-bella-country-french-frame-290lar.jpg');
+  background-size: cover;
+  /*background-color: firebrick;*/
   position: absolute;
   top: 45vh;
   left: 78vw;
 }
 .loc3{
   width: 200px;
-  height: 200px;
+  height: 250px;
   border-radius: .1rem;
-  background-color: gold;
+  background-image: url('http://www.artgalleryframes.com/images_products/alden-medium-antique-gold-painting-294lar.jpg');
+  background-size: cover;
+  /*background-color: gold;*/
   position: absolute;
   top: 71vh;
   left: 35vw;
